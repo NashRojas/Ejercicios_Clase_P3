@@ -1,4 +1,4 @@
-class CuentaBancaria {
+public class CuentaBancaria {
     private double saldo;
     private String numeroCuenta;
 

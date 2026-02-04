@@ -1,4 +1,4 @@
-class Empleado {
+public class Empleado {
     public double calcularSalario() {
         return 0;
     }
@@ -11,6 +11,7 @@ class EmpleadoFijo extends Empleado {
         this.salario = salario;
     }
 
+    @Override
     public double calcularSalario() {
         return salario;
     }
@@ -25,6 +26,7 @@ class EmpleadoPorHora extends Empleado {
         this.pagoHora = pagoHora;
     }
 
+    @Override
     public double calcularSalario() {
         return horas * pagoHora;
     }
