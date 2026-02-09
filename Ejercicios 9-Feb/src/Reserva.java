@@ -22,9 +22,9 @@ public class Reserva {
         this.cantidadPersonas = cantidadPersonas;
 
         // Validar fecha
-        try {
-            SimpleDateFormat formato = new SimpleDateFormat("dd/MM/yyyy");
+        SimpleDateFormat formato = new SimpleDateFormat("dd/MM/yyyy");
             formato.setLenient(false);
+        try {
             this.fechaReserva = formato.parse(fechaTexto);
         } catch (Exception e) {
             throw new ReservaInvalidaException("Formato de fecha invalido. Use dd/MM/yyyy");
