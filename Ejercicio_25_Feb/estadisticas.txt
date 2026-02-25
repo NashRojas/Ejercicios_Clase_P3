@@ -1,0 +1,17 @@
+========================================
+REPORTE DE PROCESAMIENTO DE ARCHIVOS
+========================================
+
+Archivo: texto1.txt
+Palabras encontradas: 75
+
+Archivo: texto2.txt
+Palabras encontradas: 80
+
+Archivo: texto3.txt
+Palabras encontradas: 77
+
+----------------------------------------
+Total de palabras procesadas: 232
+Tiempo de procesamiento: 210 ms
+========================================
