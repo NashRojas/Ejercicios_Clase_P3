@@ -96,7 +96,6 @@ public class PersonajeController {
         txtPlaneta.clear();
         txtTecnica.clear();
         txtEdad.clear();
-        txtNombre.requestFocus();
     }
 
     private void mostrarError(String mensaje) {
