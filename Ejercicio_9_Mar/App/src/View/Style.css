@@ -1,0 +1,32 @@
+.root {
+    -fx-font-family: "Times new roman";
+    -fx-background-color: #ffffff;
+}
+
+.label {
+    -fx-text-fill: #AA7229;
+    -fx-font-size: 13px;
+}
+
+.text-field,
+.combo-box {
+    -fx-background-color: white;
+    -fx-border-color: #cbd2d9;
+    -fx-border-radius: 4px;
+    -fx-background-radius: 4px;
+}
+
+.button {
+    -fx-background-color: #6E7D4E;
+    -fx-text-fill: white;
+    -fx-background-radius: 4px;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: #D8E0C7;
+}
+
+.separator .line {
+    -fx-border-color: #F0C48C;
+}

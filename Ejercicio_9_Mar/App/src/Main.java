@@ -12,6 +12,7 @@ public class Main extends Application {
         Parent root = loader.load();
 
         Scene scene = new Scene(root, 760, 450);
+        scene.getStylesheets().add(getClass().getResource("/View/Style.css").toExternalForm());
         stage.setTitle("Registro de Personajes Dragon Ball Z");
         stage.setScene(scene);
         stage.show();
