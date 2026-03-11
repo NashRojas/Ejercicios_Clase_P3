@@ -1,1 +1,38 @@
-<VBox
+<<VBox spacing="10" alignment="CENTER" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="app.controller.InventarioController">
+
+    <HBox spacing="10">
+        <Label text="Nombre:"/>
+        <TextField fx:id="txtNombre"/>
+    </HBox>
+
+    <HBox spacing="10">
+        <Label text="Precio:"/>
+        <TextField fx:id="txtPrecio"/>
+    </HBox>
+
+    <HBox spacing="10">
+        <Label text="Cantidad:"/>
+        <TextField fx:id="txtCantidad"/>
+        <Button text="Agregar" onAction="#agregarProducto"/>
+    </HBox>
+
+    <TableView fx:id="tabla" prefHeight="200">
+
+        <columns>
+
+            <TableColumn fx:id="colNombre" text="Nombre" prefWidth="150"/>
+
+            <TableColumn fx:id="colPrecio" text="Precio" prefWidth="100"/>
+
+            <TableColumn fx:id="colCantidad" text="Cantidad" prefWidth="100"/>
+
+        </columns>
+
+    </TableView>
+
+    <Button text="Eliminar fila" onAction="#eliminarProducto"/>
+
+    <Label fx:id="lblError"/>
+
+</VBox>
