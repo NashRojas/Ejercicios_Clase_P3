@@ -1,0 +1,9 @@
+{
+    "java.project.sourcePaths": [
+        "app/src"
+    ],
+    "java.project.outputPath": "app/bin",
+    "java.project.referencedLibraries": [
+        "/Users/tyecactus/javafx-sdk-21.0.10/lib/*.jar"
+    ]
+}

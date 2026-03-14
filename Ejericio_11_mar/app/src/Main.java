@@ -1,15 +1,12 @@
-package app.src;
-
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
-public class main extnds Application {
+public class Main extends Application {
     @Override
     public void start(Stage stage) throws Exception {
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("/mainview.fxml"));
-
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("/view/mainview.fxml"));
         Scene scene = new Scene(loader.load());
 
         stage.setTitle("Inventario de Productos");
